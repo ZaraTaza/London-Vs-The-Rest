@@ -53,4 +53,4 @@ In GDHI terms, 2019 to 2023, London (4.53%) was 3rd-highest of all 12 regions wh
 
 **Conclusion**
 
-Whether inequality "worsened" or "improved" since 2008 depends entirely on which lens (GVA or GDHI) is used. In GVA  terms, the gap has clearly grown. In relative growth terms, London's advantage was real but concentrated in 2008–2016 and has since narrowed or reversed against several regions. This is an effect that is even more pronounced when using income (GDHI) rather than output (GVA), where London's lead over the rest of the UK looks noticeably smaller.
+Whether inequality "worsened" or "improved" since 2008 depends entirely on which lens (GVA or GDHI) is used. In GVA  terms, the gap has clearly grown. In relative growth terms, London's advantage was real but concentrated in 2008 to 2016 and has since narrowed or reversed against several regions. This narrowing is more pronounced when using income (GDHI) rather than output (GVA), where London's lead over the rest of the UK looks noticeably smaller once measured by actual household income rather than economic output.
