@@ -1,5 +1,5 @@
 # London-Vs-The-Rest
-**An Economics Exploration by UK Regions from 2008 to 2023**
+**Has regional economic inequality in the UK has worsened or improved since the 2008 financial crash?**
 
 **Overview**
 
