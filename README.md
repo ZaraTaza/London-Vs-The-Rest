@@ -3,9 +3,10 @@
 
 **Overview**
 
-An economics analysis on UK regions from 2008 to 2023, using Python to examine Gross Value Added (GVA*) per head. This project aims to answer if regional economic inequality has worsened or improved since the 2008 financial crash and whether richer regions, such as London, have been pulling away from the rest of the UK. To examine this, this report also incorporates Gross Disposable Household Income (GDHI) per head, allowing output (where value is produced) to be compared against income (what residents actually earn).
+An economics analysis on UK regions from 2008 to 2023, using Python to examine Gross Value Added (GVA*) per head. This project aims to answer if regional economic inequality has worsened or improved since the 2008 financial crash and whether richer regions, such as London, have been pulling away from the rest of the UK. To examine this, this report also incorporates Gross Disposable Household Income (GDHI**) per head, allowing output (where value is produced) to be compared against income (what residents actually earn).
 
 *GVA is an economic measure of the value of goods and services produced in an area, industry or sector.
+**GDHI is the total amount of money that people have left over to spend or save after paying taxes and receiving any direct benefits. 
 
 **Methodology**
 
