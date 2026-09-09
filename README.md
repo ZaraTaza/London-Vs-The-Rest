@@ -39,7 +39,7 @@ Northern Ireland's 2019–2023 GVA CAGR was the highest single figure in the ent
 
 Northern Ireland's growth could be credited to dual market access from both the EU and UK post-Brexit but this report does not go into detail on the reasons for economic growth or decline.
 
-**3) Switching from output (GVA) to income (GDHI) narrows London's lead — but not universally.**
+**3) Switching from output (GVA) to income (GDHI) narrows London's lead**
 
 When measuring economic growth/decline with GDHI instead, the gap between London and the rest of the UK shrank which is consistent with the idea that GVA overstates London's economic advantage. Although, this was not a clean pattern as Wales was a clear exception with a wider gap under GDHI.
 
