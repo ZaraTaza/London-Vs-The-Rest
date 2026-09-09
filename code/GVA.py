@@ -169,6 +169,7 @@ for region in regions:
 
 
 # 5. Visualisations 
+# Plotted whole dataset from 1997 to 2023
 import matplotlib.pyplot as plt 
 df_indexed.set_index("Region name")[year_columns].T
 
@@ -180,6 +181,7 @@ plt.ylable("Index (2008 = 100)")
 plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
 plt.show()
 
+# Trimming the dataset years to 2008 to 2023
 years_columns_gva_trimmed = [str(year) for year in range(2008, 2024)]
 df_gva_plot_trimmed = df_indexed.set_index("Region name")[years_columns_gva_trimmed].T
 df_gva_plot_trimmed.plot(figsize=(12, 7)) 
