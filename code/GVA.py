@@ -47,18 +47,6 @@ df_indexed["2008"]
 df_indexed["Region name"] = df_itl1["Region name"]
 df_indexed.head()
 
-# 4. Visualisations 
-import matplotlib.pyplot as plt 
-df_indexed.set_index("Region name")[year_columns].T
-
-df_plot = df_indexed.set_index("Region name")[year_columns].T
-df_plot.plot(figsize=(12, 7))
-plt.title("Regional GVA per head, indexed to 2008 = 100")
-plt.xlable("Year")
-plt.ylable("Index (2008 = 100)")
-plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
-plt.show()
-
 # Sanity check
 df["ITL"] == "ITL1"
 
@@ -66,7 +54,7 @@ df_itl1 = df[df["ITL"] == "ITL1"]
 type(df_itl1)
 print(df_itl1.shape)
 
-# London's raw 2016 GVA per head value on its own anc cleaning
+# London's raw 2016 GVA per head value on its own cleaning
 df_itl1[df_itl1["Region name"] == "London"]["2016"]
 
 year_columns = [str(year) for year in range(1998, 2024)]
@@ -74,7 +62,7 @@ df_itl1[year_columns] = df_itl1[year_columns].apply(pd.to_numeric, errors="coerc
 df_itl1[df_itl1["Region name"] == "London"]["2016"]
 df["ITL"] == "ITL1"
 
-# 5. Calculate CAGR across Regions
+# 4. Calculate CAGR across Regions
 start = 39929
 end = 48701
 years = 8
@@ -178,3 +166,25 @@ for region in regions:
     cagr = (end / start) ** (1 / years) - 1
     cagr_percent = cagr * 100
     print(region, cagr_percent)
+
+
+# 5. Visualisations 
+import matplotlib.pyplot as plt 
+df_indexed.set_index("Region name")[year_columns].T
+
+df_plot = df_indexed.set_index("Region name")[year_columns].T
+df_plot.plot(figsize=(12, 7))
+plt.title("Regional GVA per head, indexed to 2008 = 100")
+plt.xlable("Year")
+plt.ylable("Index (2008 = 100)")
+plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
+plt.show()
+
+years_columns_gva_trimmed = [str(year) for year in range(2008, 2024)]
+df_gva_plot_trimmed = df_indexed.set_index("Region name")[years_columns_gva_trimmed].T
+df_gva_plot_trimmed.plot(figsize=(12, 7)) 
+plt.title("Regional GVA per head, indexed 2008 = 100") 
+plt.xlabel("Years") 
+plt.ylabel("Indexed GVA") 
+plt.legend(loc="upper left", bbox_to_anchor=(1, 1)) 
+plt.show()
