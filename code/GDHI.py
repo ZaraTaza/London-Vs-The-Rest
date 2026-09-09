@@ -73,3 +73,31 @@ for region in regions_ghdhi:
     cagr = (end / start) ** (1 / years) - 1
     cagr_percent = cagr * 100
     print(region, cagr_percent)
+
+# 4. Visualisations
+df_gdhi_itl1.to_csv("gdhi_export.csv", index=False)
+df_gdhi_indexed = df_gdhi_itl1[years_columns_gdhi].div(df_gdhi_itl1["2008"], axis=0) * 100
+df_gdhi_indexed["2008"]
+df_gdhi_indexed["Region name"] = df_gdhi_itl1["Region name"]
+df_gdhi_indexed.head()
+
+df_gdhi_plot = df_gdhi_indexed.set_index("Region name")[years_columns_gdhi].T
+
+# Plotted whole dataset from 1997 to 2023
+import matplotlib.pyplot as plt
+df_gdhi_plot.plot(figsize=(12, 7))
+plt.title("Regional GDHI Growth per head, indexed 2008 = 100")
+plt.xlabel("Years")
+plt.ylabel("Indexed GDHI")
+plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
+plt.show()
+
+# Trimming the dataset years to 2008 to 2023
+years_columns_gdhi_trimmed = [str(year) for year in range(2008, 2024)]
+df_gdhi_plot_trimmed = df_gdhi_indexed.set_index("Region name")[years_columns_gdhi_trimmed].T
+df_gdhi_plot_trimmed.plot(figsize=(12, 7))
+plt.title("Regional GDHI per head, indexed 2008 = 100")
+plt.xlabel("Years")
+plt.ylabel("Indexed GDHI")
+plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
+plt.show()
