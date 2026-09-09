@@ -49,7 +49,7 @@ When measuring economic growth/decline with GDHI instead, the gap between London
 
 On the income measure specifically, London looks stronger and steadier in the most recent period than GVA alone suggested.
 
-In GDHI terms, 2019 to 2023, London (4.53%) was 3rd-highest of all 12 regions which is quite different from its middling GVA rank in the same period. London's GDHI growth was also more consistently strong across all three periods (never near the bottom), whereas several regions showed more volatile patterns, such as Northern Ireland. It is also worth noting there is a sharp dip in both charts (shown below) in 2020 due to the pandemic but then most regions recover steeply from 2021 onwards, making the CAGR period of 2019 to 2023 the strongest. 
+In GDHI terms, 2019 to 2023, London (4.53%) was 3rd-highest of all 12 regions which is quite different from its middling GVA rank in the same period. London's GDHI growth was also more consistently strong across all three periods (never near the bottom), whereas several regions showed more volatile patterns, such as Northern Ireland. It is also worth noting there is a dip in both charts (shown below) in 2020 due to the pandemic but then most regions recover steeply from 2021 onwards, making the CAGR period of 2019 to 2023 the strongest. 
 
 **Visualisations**
 
