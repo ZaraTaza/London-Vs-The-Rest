@@ -19,11 +19,13 @@ Data was sourced from Office for National Statistics which can be found below:
 
 The data was cleaned and analysed in Python to examine and compare economic trends amongst UK regions from 2008 to 2023. With the common rhetoric that London is pulling away from the rest of the UK, this project explores whether other UK regions were able to recover from the 2008 financial crash, and examines how far the economic gap between London and the rest has widened or narrowed since. 
 
+It should be noted that figures are presented in nominal (current price) terms, as published by the ONS, and are not adjusted for inflation. As a result, some of the growth recorded in later periods particularly 2019–2023, which includes a period of high UK inflation, reflects rising prices as well as genuine economic change.
+
 Regional GVA (output) and GDHI (income) per head were each indexed to 2008 = 100 to allow fair comparison of growth across regions with different starting levels. Compound Annual Growth Rate (CAGR) was calculated across three sub-periods (2008 – 2016, 2016 – 2019 and 2019 – 2023) to identify when divergence occurred. CAGR was used rather than simple percentage change because the three periods are of different lengths (8, 3 and 4 years). CAGR expresses growth as an equivalent constant annual rate, allowing periods of different lengths to be fairly compared. The first sub-period (2008 - 2016) was used to showcase the years with direct impact of the 2008 financial crash; the second sub-period (2016 - 2019) highlighted events such as Brexit and constant changes in government; and the third sub-period (2019 - 2023) is the most recent time frame, captured the pandemic years and the recovery years that followed. Dividing these time frames as such allows us to isolate periods for comparison.
 
 Visualisations were created using Python and are presented throughout this report.
 
-The following codes can be found here:
+The following code can be found here:
 
 [GVA](https://github.com/ZaraTaza/London-Vs-The-Rest/blob/main/code/GVA.py)
 
@@ -33,11 +35,11 @@ The following codes can be found here:
 
 **1) Inequality worsened with London's lead widening from the rest of the UK**
 
-London's GVA per head grew from £39,929 (2008) to £64,519 (2023) which is a gain of £24,590 per person, more than double the gain most other regions saw (e.g. North East: +£8,118). Due to London starting from a much higher base, even similar percentage growth elsewhere still translates into a widening cash gap.
+London's GVA per head grew from £39,929 (2008) to £64,519 (2023) which is a gain of £24,590 per person, more than double the gain other regions saw (e.g. North East: +£8,118). Due to London starting from a much higher base, even similar percentage growth elsewhere still translates into a widening cash gap. The rest of the UK" is not a single economic bloc. Regions have grown at varying rates, with some closing the economic gap with London while others, such as the North East, have fallen further behind. 
 
 However, the story is far more nuanced than merely London advancing ahead from the rest. Indexed to 2008=100, London's overall growth (+61.6% by 2023) was close to several other regions, including Northern Ireland (+62.9%) and North West (+61.0%). Breaking down the data into sub-periods (CAGR) showed a clear U-shape rather than a simple divergence.  
 
-**2) Northern Ireland is the fastest growth of any region, in the most recent period**
+**2) Northern Ireland saw the fastest growth of any region in the most recent period**
 
 Northern Ireland's 2019–2023 GVA CAGR was the highest single figure in the entire dataset at 6.09%. Although its earlier growth (2008–2016) lagged well behind London's, showing this is a recent phenomenon and not a 15-year trend. 
 
