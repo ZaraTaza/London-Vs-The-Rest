@@ -1,5 +1,5 @@
 # London-Vs-The-Rest
-**Has regional economic inequality in the UK has worsened or improved since the 2008 financial crash?**
+**Has regional economic inequality in the UK worsened or improved since the 2008 financial crash?**
 
 **Overview**
 
@@ -41,7 +41,7 @@ However, the story is far more nuanced than merely London advancing ahead from t
 
 Northern Ireland's 2019–2023 GVA CAGR was the highest single figure in the entire dataset at 6.09%. Although its earlier growth (2008–2016) lagged well behind London's, showing this is a recent phenomenon and not a 15-year trend. 
 
-Northern Ireland's growth could be credited to dual market access from both the EU and UK post-Brexit but this report does not go into detail on the reasons for economic growth or decline.
+Northern Ireland's growth could be credited to factors such as its trading position as it has dual market access from both the EU and UK post-Brexit but this report does not go into detail on the reasons for economic growth or decline.
 
 **3) Switching from output (GVA) to income (GDHI) narrows London's lead**
 
