@@ -1,5 +1,4 @@
 # 1. Install Libraries
-pip install pandas openpyxl
 import pandas as pd
 
 # 2. Load and Validate Data
